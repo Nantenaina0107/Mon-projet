@@ -1,0 +1,400 @@
+ /* CSS private */
+ *{
+     font-family: "Calibri Light";
+ }
+ .body{
+     display: flex;
+     padding: 5px;
+ }
+ .dashboard{
+     width: 300px;
+     height: 630px;
+     background: beige;
+     margin-left: -16% !important;
+     margin-top: -4%;
+     border-radius: 23px;
+ }
+ .dashboard nav ul{
+     padding: 10px;
+     margin-left: 10%;
+ }
+ .dashboard nav ul li{
+     list-style-type: none;
+     padding: 15px 5px 15px 30px;
+     font-size: 18px;
+     cursor: pointer;
+ }
+ .active{
+     border: 3px solid #fff;
+     border-radius: 50px;
+     padding: 5px;
+     width: 200px;
+ }
+ header{
+     text-align: center;
+     padding: 5px;
+     background: antiquewhite;
+ }
+ header p{
+     font-size: 18px;
+ }
+ .profil{
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     margin-right: 20%;
+ }
+ .toggle{
+     background: beige;
+     width: 100%;
+     height: 5%;
+     display: flex;
+     padding: 10px;
+     margin-left: -5%;
+     margin-top: -0.5%;
+     border-radius: 0 23px 23px 0;
+ }
+ .logo{
+     margin-left: 20px;
+ }
+ .nom{
+     margin-left: 0%;
+     font-size: 18px;
+ }
+ .nom h2 i:nth-child(1){
+     position: relative;
+     color: red;
+     animation-name: example;
+     animation-duration: 1.2s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(2){
+     position: relative;
+     color: aqua;
+     animation-name: example;
+     animation-duration: 1.4s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(3){
+     position: relative;
+     color: blueviolet;
+     animation-name: example;
+     animation-duration: 1.6s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(4){
+     position: relative;
+     color: goldenrod;
+     animation-name: example;
+     animation-duration: 1.8s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(5){
+     position: relative;
+     color: darkkhaki;
+     animation-name: example;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(6){
+     position: relative;
+     color: darkred;
+     animation-name: example;
+     animation-duration: 2.2s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(7){
+     position: relative;
+     color: cornflowerblue;
+     animation-name: example;
+     animation-duration: 2.4s;
+     animation-iteration-count: infinite;
+ }
+ .nom h2 i:nth-child(8){
+     position: relative;
+     color: brown;
+     animation-name: example;
+     animation-duration: 2.6s;
+     animation-iteration-count: infinite;
+ }
+ .bouton{
+     background: goldenrod;
+     padding: 5px;
+     border-radius: 23px;
+     border: none;
+     visibility: hidden;
+     float: left;
+ }
+ .content{
+     float: right;
+     margin-right: 5%;
+     margin-top: -40%;
+ }
+ th, td{
+     padding: 15px 50px 15px 50px !important;
+ }
+ tr:hover{
+     background: beige !important;
+ }
+ .titre{
+     margin-left: 5%;
+ }
+ .titre .new{
+     float: right;
+     margin-top: -5%;
+ }
+ .not{
+     float: left !important;
+     margin-left: 70%;
+     padding-right: 30px;
+ }
+ @keyframes example {
+     0%   {color:rgb(211, 32, 32); top:0px;}
+     50%  {color:rgb(9, 9, 221);top:5px;}
+     100% {color:rgb(223, 16, 16); top:-2px;}
+ }
+ @media screen and (max-width: 1300px){
+     .nom{
+         margin-left: 40%;
+     }
+     .content{
+         margin-top: 5% !important;
+     }
+     th, td{
+         padding: 1px !important;
+     }
+ }
+
+ /* CSS privare */
+/*main{*/
+/*    width: 300px;*/
+/*    margin-left: 35%;*/
+/*}*/
+/*.col-lg-12{*/
+/*    padding: 10px;*/
+/*}*/
+/*li{*/
+/*    cursor: pointer;*/
+/*}*/
+/*body{*/
+/*    overflow-x: hidden;*/
+/*}*/
+/**, td, i{*/
+/*    font-size: 15px !important;*/
+/*}*/
+/*.navigation{*/
+/*    background: rgb(243, 231, 231);*/
+/*    height: 100vh;*/
+/*    border-radius: 13px;*/
+/*    text-align: start;*/
+/*}*/
+/*.menu{*/
+/*    margin-top: 50% !important;*/
+/*}*/
+/*.menu li{*/
+/*    list-style-type: none;*/
+/*    padding-bottom: 20px;*/
+/*    cursor: pointer;*/
+/*    text-align: start;*/
+/*}*/
+/*.copy{*/
+/*    margin-top: 50%;*/
+/*}*/
+/*.menu li:hover{*/
+/*    background: rgb(172, 139, 139);*/
+/*    padding: 8px;*/
+/*    border-radius: 13px;*/
+/*}*/
+/*.toggle{*/
+/*    background: rgb(243, 231, 231);*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    border-radius: 13px;*/
+/*}*/
+/*.toggle, .search, .log{*/
+/*    display: flex;*/
+/*}*/
+/*.profil{*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    border-radius: 50px;*/
+/*}*/
+/*li{*/
+/*    cursor: pointer;*/
+/*}*/
+/*.log{*/
+/*    margin-left: 60%;*/
+/*}*/
+/*.log p{*/
+/*    padding: 0 10px 0 10px;*/
+/*}*/
+/*.search button{*/
+/*    border-radius: 0 13px 13px 0;*/
+/*    border: none;*/
+/*}*/
+/*.search .form-control{*/
+/*    border-radius: 13px 0 0 13px;*/
+/*}*/
+/*.ajouter{*/
+/*    margin-left: 85%;*/
+/*    margin-top: -2%;*/
+/*}*/
+/*.col-lg-4{*/
+/*    padding: 10px;*/
+/*}*/
+/*.clientAdd{*/
+/*    padding: 10px;*/
+/*    background: #ccc;*/
+/*    border-radius: 13px;*/
+/*}*/
+/*.cli{*/
+/*    margin-left: 85%;*/
+/*}*/
+/*.vin{*/
+/*    width: 90%;*/
+/*    height: 150px !important;*/
+/*    border-radius: 13px;*/
+/*    margin-left: 5%;*/
+/*}*/
+/*.box{*/
+/*    background: rgb(243, 231, 231);*/
+/*    padding: 2px;*/
+/*    border-radius: 13px;*/
+/*}*/
+/*.bout{*/
+/*    margin-left: 40%;*/
+/*}*/
+/*.col-lg-3{*/
+/*    padding: 5px;*/
+/*}*/
+/*.addv .col-lg-4,.addv .col-lg-8{*/
+/*    padding: 20px;*/
+/*}*/
+/*.ven{*/
+/*    border-right:  1px solid black;*/
+/*    padding: 10px;*/
+/*}*/
+/*.prix .col-lg-6{*/
+/*    padding: 20px;*/
+/*}*/
+/*.rg{*/
+/*    margin-left: 5px;*/
+/*}*/
+
+
+/*body{*/
+/*	margin: 0;*/
+/*	padding: 0;*/
+/*	min-height: 100vh;*/
+/*	font-family: 'Jost', sans-serif;*/
+/*	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);*/
+/*}*/
+/*.main{*/
+/*	width: 350px;*/
+/*	height: 500px;*/
+/*	background: red;*/
+/*	margin-left: 35%;*/
+/*	margin-top: 5%;*/
+/*	overflow: hidden;*/
+/*	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;*/
+/*	border-radius: 10px;*/
+/*	box-shadow: 5px 20px 50px #000;*/
+/*}*/
+/*#chk{*/
+/*	display: none;*/
+/*}*/
+/*.signup{*/
+/*	position: relative;*/
+/*	width:100%;*/
+/*	height: 100%;*/
+/*}*/
+/*.label{*/
+/*	color: #fff;*/
+/*	font-size: 2.5em !important;*/
+/*	justify-content: center;*/
+/*	display: flex;*/
+/*	margin: 60px;*/
+/*	font-weight: bold;*/
+/*	cursor: pointer;*/
+/*	transition: .5s ease-in-out;*/
+/*}*/
+/*.input{*/
+/*	width: 68%;*/
+/*    height: 8%;*/
+/*	background: #e0dede;*/
+/*	justify-content: center;*/
+/*	display: flex;*/
+/*	margin: 20px auto;*/
+/*	padding: 10px;*/
+/*	border: none;*/
+/*	outline: none;*/
+/*	border-radius: 5px;*/
+/*}*/
+/*.bouto{*/
+/*	width: 60%;*/
+/*	height: 40px;*/
+/*	margin: 10px auto;*/
+/*	justify-content: center;*/
+/*	display: block;*/
+/*	color: #fff;*/
+/*	background: #573b8a;*/
+/*	font-weight: bold;*/
+/*	margin-top: 20px;*/
+/*	outline: none;*/
+/*	border: none;*/
+/*	border-radius: 5px;*/
+/*	transition: .2s ease-in;*/
+/*	cursor: pointer;*/
+/*}*/
+/*.bouto:hover{*/
+/*	background: #6d44b8;*/
+/*}*/
+/*.login{*/
+/*	height: 460px;*/
+/*	background: #eee;*/
+/*	border-radius: 60% / 10%;*/
+/*	transform: translateY(-180px);*/
+/*	transition: .8s ease-in-out;*/
+/*}*/
+/*.login label{*/
+/*	color: #573b8a;*/
+/*	transform: scale(.6);*/
+/*}*/
+
+/*#chk:checked ~ .login{*/
+/*	transform: translateY(-500px);*/
+/*}*/
+/*#chk:checked ~ .login label{*/
+/*	transform: scale(1);*/
+/*}*/
+/*#chk:checked ~ .signup label{*/
+/*	transform: scale(.6);*/
+/*}*/
+/*::-webkit-scrollbar{*/
+/*    width: 7px;*/
+/*}*/
+
+/*.alert-box-error{*/
+/*    position: fixed;*/
+/*    top: 40%;*/
+/*    left: 60%;*/
+/*    transform: translate(-50%, 50%);*/
+/*    background-color: #f8d7da;*/
+/*    color: #721c24;*/
+/*    padding: 50px;*/
+/*    border: 1px solid #f5c6cb;*/
+/*    border-radius: 5px;*/
+/*    z-index: 9999;*/
+/*}*/
+/*.alert-box-success{*/
+/*    position: fixed;*/
+/*    top: 40%;*/
+/*    left: 60%;*/
+/*    transform: translate(-50%, 50%);*/
+/*    background-color: #43af64;*/
+/*    color: #721c24;*/
+/*    padding: 50px;*/
+/*    border: 1px solid #f5c6cb;*/
+/*    border-radius: 5px;*/
+/*    z-index: 9999;*/
+/*}*/
